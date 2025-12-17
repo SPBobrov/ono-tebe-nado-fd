@@ -1,6 +1,6 @@
 /* место для вашего кода */
 h1 {
-
+    font-size: 48px;
 }
 
 h2 {
@@ -32,6 +32,8 @@ footer {
 }
 
 .cover {
+    background-image: url('/images/cover.jpg');
+    background-color: aqua;
 
 }
 
