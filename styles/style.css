@@ -12,17 +12,20 @@ h2 {
 
 header {
     background-color: aquamarine;
-    width: 1100;
-    height: 293;
+    margin: 0;
+    /*width: 1100;
+    height: 293;*/
 
 }
 
 main {
     background-color: bisque;
+    
 }
 
 footer {
     background-color: blueviolet;
+    margin: 0;
 }
 
 .menu {
@@ -48,8 +51,8 @@ footer {
 }
 
 .lots {
-     margin:0;
-     padding: 180px 24px 120px 24px;
+     margin: 180px 24px 120px 24px;
+     
 }
 
 .frame {
@@ -61,6 +64,7 @@ footer {
 }
 
 .about {
+    margin: 0 24px 180px 24px;
 
 }
 
