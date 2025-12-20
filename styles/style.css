@@ -1,22 +1,36 @@
+ul,
+ol,
+li {
+    margin: 0; padding: 0; list-style: none;
+}
+
 body {
     background-color: aliceblue;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+    z-index: 6;
+   
 }
 
 h2 {
-
+    text-transform: uppercase;
 }
 
 .header {
     /*background-color: aquamarine;*/
     margin: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-
+    padding: 10px;
     /*width: 1100;
     height: 293;*/
 
@@ -37,7 +51,7 @@ footer {
 }
 
 .logo {
-   
+   display: block;
 }
 
 .contacts {
@@ -48,16 +62,61 @@ footer {
     margin: 0;
     background-color: aqua;
     background-image: url(../images/cover.jpg);
+    min-height: 757px;
+    position: relative;
 
 }
+
+.overlay {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.cover-title-one {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.cover-title-two {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.cover-title-three {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
 
 .desctiption {
 
 }
 
+.description-title {
+    position: relative;
+    color: white;
+    z-index: 6;
+}
+
 .lots {
      margin: 180px 24px 120px 24px;
      
+}
+
+.lots-ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.lots-a {
+    height: 100%;
+    color: white;
+}
+.lots-article {
+    height: 100%;
 }
 
 .frame {
@@ -66,14 +125,26 @@ footer {
 
 .cinema {
    background-image: url(../images/card-lot-01.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 334px;
+   height: 596px;
 }
 
 .book {
     background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 596px;
 }
 
 .painting {
     background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 596px;
 }
 
 .more {
@@ -82,6 +153,8 @@ footer {
 
 .about {
     margin: 0 24px 180px 24px;
+    display: grid;
+    grid-template-columns: 334px auto;
 
 }
 
@@ -91,4 +164,14 @@ footer {
 
 .about-column {
 
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
 }
