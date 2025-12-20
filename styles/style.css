@@ -1,14 +1,43 @@
 ul,
 ol,
 li {
-    margin: 0; padding: 0; list-style: none;
+    padding: 0; list-style: none;
 }
 
-body {
-    background-color: aliceblue;
+button {
+     background: none;
+     border: none;
+     padding: 0;
+     margin: 0;
+     font: inherit;
+     cursor: pointer;
 }
 
-h1 {
+.header {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 92px 50px 96px 50px;
+
+}
+
+.header-menu {
+
+}
+
+.header-logo {
+   display: block;
+   width: 148px;
+   height: 105px;
+}
+
+.header-contacts {
+
+}
+
+.cover-title {
+    padding: 165px 50px 207px 50px;
     font-size: 100px;
     color: white;
     text-transform: uppercase;
@@ -17,51 +46,23 @@ h1 {
     grid-template-rows: 1fr 1fr 1fr;
     position: relative;
     z-index: 6;
-   
+
 }
 
 h2 {
     text-transform: uppercase;
-}
-
-.header {
-    /*background-color: aquamarine;*/
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr min-content 1fr;
-    align-items: center;
-    padding: 10px;
-    /*width: 1100;
-    height: 293;*/
 
 }
 
 main {
-    background-color: bisque;
-    
-}
-
-footer {
-    background-color: blueviolet;
     margin: 0;
-}
-
-.menu {
-
-}
-
-.logo {
-   display: block;
-}
-
-.contacts {
-
+    
 }
 
 .cover {
     margin: 0;
-    background-color: aqua;
     background-image: url(../images/cover.jpg);
+    background-size: cover;
     min-height: 757px;
     position: relative;
 
@@ -69,7 +70,7 @@ footer {
 
 .overlay {
     position: absolute;
-    background-color: rgb(0, 0, 0, 0.25);
+    background-color: rgb(0, 0, 0, 0.60);
     width: 100%;
     height: 100%;
     z-index: 5;
@@ -91,19 +92,48 @@ footer {
 }
 
 
-.desctiption {
-
+.description {
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 150px;
+    align-items: center;
+    gap: 100px;
+    padding-left: 50px; 
+    padding-right: 50px; 
 }
 
 .description-title {
+    font-size: 22px;
+    font-weight: 400;
+    word-spacing: 15px;
     position: relative;
     color: white;
     z-index: 6;
 }
 
+.description-button {
+    position: relative;
+    color: white;
+    z-index: 6;
+    font-size: 22px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid white;
+    padding: 12px 24px;
+    
+}
+
 .lots {
      margin: 180px 24px 120px 24px;
      
+}
+
+.lots-title {
+    font-weight: 700;
+    font-size: 40px;
+    display: inline-block;
+    padding: 27px 40px;
 }
 
 .lots-ul {
@@ -124,6 +154,7 @@ footer {
 }
 
 .cinema {
+   position: relative;
    background-image: url(../images/card-lot-01.jpg);
    background-size: cover;
    background-position: center;
@@ -132,6 +163,7 @@ footer {
 }
 
 .book {
+    position: relative;
     background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     background-position: center;
@@ -140,6 +172,7 @@ footer {
 }
 
 .painting {
+    position: relative;
     background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
     background-position: center;
@@ -153,6 +186,7 @@ footer {
 
 .about {
     margin: 0 24px 180px 24px;
+    padding: 35px 0 13px 47px;
     display: grid;
     grid-template-columns: 334px auto;
 
@@ -166,7 +200,14 @@ footer {
 
 }
 
+footer {
+   margin: 0;
+}
+
+
 .footer {
+    margin: 0;
+    padding: 0 50px 82px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
