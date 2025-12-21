@@ -139,6 +139,7 @@ main {
 .lots-ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 .lots-a {
@@ -150,7 +151,7 @@ main {
 }
 
 .frame {
-
+       
 }
 
 .cinema {
@@ -160,6 +161,8 @@ main {
    background-position: center;
    width: 334px;
    height: 596px;
+   
+   
 }
 
 .book {
@@ -169,6 +172,7 @@ main {
     background-position: center;
     width: 334px;
     height: 596px;
+
 }
 
 .painting {
@@ -180,8 +184,37 @@ main {
     height: 596px;
 }
 
-.more {
+.article-title {
+    position: absolute;
+    top: 48px;
+    right: 40px;
+    left: 40px;
+    z-index: 7;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 120%;
+}
 
+.article-content {
+    position: absolute;
+    bottom: 48px;
+    right: 40px;
+    left: 40px;
+
+    z-index: 7;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    align-self: end;
+}
+
+.more {
+    padding-left: 40px;
+    padding-top: 30px;
+    text-decoration: underline ;
+    text-transform: lowercase;
+    font-size: 20px;
 }
 
 .about {
@@ -189,11 +222,41 @@ main {
     padding: 35px 0 13px 47px;
     display: grid;
     grid-template-columns: 334px auto;
+    grid-template-rows: 560px;
 
 }
 
-.logo-column {
+.logo-column-circle {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 240px;
+    background-color: black;
+    border-radius: 50%;
+}
 
+.logo-column-img {
+    width: 141.54px;
+    height: 112.55px;
+}
+
+.logo-column {
+    display: flex;
+    padding-left: 47px;
+    padding-top: 35px;
+}
+
+.about-column-title {
+    padding-top: 136px;
+    padding-right: 402px;
+    padding-bottom: 100px;
+}
+
+.about-column-content {
+    font-size: 20px;
+    margin-bottom: 1.5em;
 }
 
 .about-column {
