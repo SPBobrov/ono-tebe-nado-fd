@@ -16,17 +16,26 @@ button {
 .header {
     margin: 0;
     display: grid;
+    
     grid-template-columns: 1fr auto 1fr;
     gap: 36px;
     align-items: center;
     padding: 92px 50px 96px 50px;
+    
 
 }
 
 .header-menu {
     display: flex;
-    gap: 13px;
-    font-size: 22px;
+    gap: 28px;
+    font-size: 18px;
+   
+}
+
+.header-menu-attach {
+    text-decoration: underline;
+    list-style: circle;
+    
 }
 
 .nav {
@@ -39,8 +48,17 @@ button {
    height: 105px;
 }
 
-.header-contacts {
+.contacts {
+    font-size: 18px;
+    width: 240px;
+    height: 98px;
+    justify-items: start;
+    justify-content: end;
 
+}
+
+.contacts-pharagraf {
+    text-decoration: underline;
 }
 
 .cover-title {
