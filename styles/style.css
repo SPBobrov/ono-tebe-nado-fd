@@ -39,9 +39,6 @@ button {
     
 }
 
-.nav {
-
-}
 
 .header-logo {
    display: block;
@@ -60,6 +57,7 @@ button {
 }
 
 .contacts-pharagraf {
+    text-decoration: none;
     border-bottom: 1px solid currentColor;
     padding-bottom: 1px;
     line-height: 24.5px;
@@ -130,18 +128,22 @@ main {
     gap: 100px;
     padding-left: 50px; 
     padding-right: 50px; 
+
 }
 
 .description-title {
+
     font-size: 22px;
     font-weight: 400;
     word-spacing: 15px;
     position: relative;
     color: white;
     z-index: 6;
+
 }
 
 .description-button {
+
     position: relative;
     color: white;
     z-index: 6;
@@ -179,9 +181,6 @@ main {
     height: 100%;
 }
 
-.frame {
-       
-}
 
 .cinema {
    position: relative;
@@ -287,15 +286,6 @@ main {
     font-size: 20px;
     margin-bottom: 1.5em;
 }
-
-.about-column {
-
-}
-
-footer {
-   margin: 0;
-}
-
 
 .footer {
    
