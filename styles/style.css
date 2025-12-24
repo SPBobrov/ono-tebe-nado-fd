@@ -34,6 +34,7 @@ button {
 
 .header-menu-attach {
     text-decoration: underline;
+    
     list-style: circle;
     
 }
@@ -52,13 +53,16 @@ button {
     font-size: 18px;
     width: 240px;
     height: 98px;
-    justify-items: start;
+    justify-self: end;
+    line-height: 24.5px;
     
 
 }
 
 .contacts-pharagraf {
-    text-decoration: underline;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+    line-height: 24.5px;
 }
 
 .cover-title {
