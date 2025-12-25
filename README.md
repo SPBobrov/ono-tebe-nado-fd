@@ -1,1 +1,1 @@
-git@github.com:SPBobrov/ono-tebe-nado-fd.git
+https://github.com/SPBobrov/ono-tebe-nado-fd
