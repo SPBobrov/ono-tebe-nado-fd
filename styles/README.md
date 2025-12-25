@@ -1,0 +1,1 @@
+git@github.com:SPBobrov/ono-tebe-nado-fd.git
