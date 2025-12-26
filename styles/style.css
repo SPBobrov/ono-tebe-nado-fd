@@ -70,12 +70,13 @@ button {
     color: white;
     text-transform: uppercase;
     display: grid;
-    grid-template-columns: repeat(11,1fr);
+    grid-template-columns: 9% 9% 9% 6% 5% 9% 14.5% 9% 9% 9% auto;
     grid-template-rows: 40% 39% 21%;
     position: relative;
     z-index: 6;
     line-height: 115%;
     letter-spacing: 30px;
+    align-items: start;
     
 
 }
@@ -116,14 +117,15 @@ main {
 }
 
 .cover-title-two {
-    grid-column-start: 4;
-    grid-column-end: 8;
+    grid-column-start: 5;
+    grid-column-end: 9;
     grid-row-start: 2;
+    
 }
 
 .cover-title-three {
 
-    grid-column-start: 7;
+    grid-column-start: 8;
     grid-column-end: 11;
     grid-row-start: 3;
 
