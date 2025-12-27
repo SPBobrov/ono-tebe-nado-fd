@@ -17,27 +17,23 @@ button {
 .header {
     margin: 0;
     display: grid;
-    
     grid-template-columns: 1fr auto 1fr;
     gap: 36px;
     align-items: center;
     padding: 92px 50px 96px 50px;
-    
-
 }
 
 .header-menu {
     display: flex;
-    gap: 28px;
+    gap: 32px;
     font-size: 18px;
-   
 }
 
 .header-menu-attach {
-    text-decoration: underline;
-    
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
     list-style: circle;
-    
 }
 
 
@@ -53,8 +49,6 @@ button {
     height: 98px;
     justify-self: end;
     line-height: 24.5px;
-    
-
 }
 
 .contacts-pharagraf {
@@ -77,18 +71,14 @@ button {
     line-height: 115%;
     letter-spacing: 30px;
     align-items: start;
-    
-
 }
 
 h2 {
     text-transform: uppercase;
-
 }
 
 main {
     margin: 0;
-    
 }
 
 .cover {
@@ -96,13 +86,10 @@ main {
     background-image: url(../images/cover.jpg);
     background-size: cover;
     min-height: 757px;
-    /*height: 757px;*/
     position: relative;
-
 }
 
 .overlay {
-
     position: absolute;
     background-color: rgb(0, 0, 0, 0.60);
     width: 100%;
@@ -120,43 +107,36 @@ main {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 2;
-    
 }
 
 .cover-title-three {
-
     grid-column-start: 8;
     grid-column-end: 11;
     grid-row-start: 3;
-
 }
 
 
 .description {
-    
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 150px;
+    grid-template-columns: 74% 26%;
+    grid-template-rows: 135px;
     align-items: center;
-    gap: 100px;
+    justify-items: start;
+    gap: 0;
     padding-left: 50px; 
     padding-right: 50px; 
-
 }
 
 .description-title {
-
     font-size: 22px;
     font-weight: 400;
-    word-spacing: 15px;
+    word-spacing: 19px;
     position: relative;
     color: white;
     z-index: 6;
-
 }
 
 .description-button {
-
     position: relative;
     color: white;
     z-index: 6;
@@ -164,26 +144,24 @@ main {
     text-transform: uppercase;
     background: transparent;
     border: 1px solid white;
-    padding: 12px 24px;
-    
+    padding: 13px 31px 11px 33px;
 }
 
 .lots {
      margin: 180px 24px 120px 24px;
-     
 }
 
 .lots-title {
     font-weight: 700;
     font-size: 40px;
     display: inline-block;
-    padding: 27px 40px;
+    padding: 5px 40px 24px 40px;
 }
 
 .lots-ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
+    gap: 20px;
 }
 
 .lots-a {
@@ -202,8 +180,6 @@ main {
    background-position: center;
    width: 334px;
    height: 596px;
-   
-   
 }
 
 .book {
@@ -213,7 +189,6 @@ main {
     background-position: center;
     width: 334px;
     height: 596px;
-
 }
 
 .painting {
@@ -242,7 +217,6 @@ main {
     bottom: 48px;
     right: 40px;
     left: 40px;
-
     z-index: 7;
     font-weight: 400;
     font-size: 20px;
@@ -252,8 +226,13 @@ main {
 
 .more {
     padding-left: 40px;
-    padding-top: 30px;
-    text-decoration: underline ;
+    padding-top: 32px;
+}
+
+.more-content {
+    text-decoration: none ;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
     text-transform: lowercase;
     font-size: 20px;
 }
@@ -262,9 +241,8 @@ main {
     margin: 0 24px 180px 24px;
     padding: 35px 0 13px 47px;
     display: grid;
-    grid-template-columns: 334px auto;
-    grid-template-rows: 560px;
-
+    grid-template-columns: 314px auto;
+    grid-template-rows: 545px;
 }
 
 .logo-column-circle {
@@ -285,23 +263,30 @@ main {
 
 .logo-column {
     display: flex;
-    padding-left: 47px;
-    padding-top: 35px;
+    padding-left: 0;
+    padding-top: 0;
 }
 
 .about-column-title {
-    padding-top: 136px;
-    padding-right: 402px;
-    padding-bottom: 100px;
+    width: 291px;
+    height: 47px;
+    padding-top: 100px;
+    /*padding-right: 402px;*/
+    padding-bottom: 146px;
+    font-size: 40px;
 }
 
 .about-column-content {
     font-size: 20px;
     margin-bottom: 1.5em;
+    width: 687px;
+}
+
+.about-column-content-letter{
+    letter-spacing: -1px;
 }
 
 .footer {
-   
     margin: 0;
     padding: 0 50px 82px 50px;
     display: grid;
@@ -315,6 +300,10 @@ main {
     width: 264px;
     height: 98px;
     justify-self: start;
+}
+
+.contacts-pharagraf-address {
+    line-height: 1.4;
 }
 
 .nav {
