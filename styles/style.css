@@ -14,6 +14,10 @@ button {
      cursor: pointer;
 }
 
+address {
+    font-style: normal;
+}
+
 .header {
     margin: 0;
     display: grid;
@@ -26,6 +30,7 @@ button {
 .header-menu {
     display: flex;
     gap: 32px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
 
@@ -36,7 +41,6 @@ button {
     list-style: circle;
 }
 
-
 .header-logo {
    display: block;
    width: 148px;
@@ -45,6 +49,7 @@ button {
 
 .contacts {
     font-size: 18px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     width: 240px;
     height: 98px;
     justify-self: end;
@@ -61,6 +66,7 @@ button {
 .cover-title {
     padding: 165px 50px 106px 50px;
     font-size: 100px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: white;
     text-transform: uppercase;
     display: grid;
@@ -115,20 +121,9 @@ main {
     grid-row-start: 3;
 }
 
-
-.description {
-    display: grid;
-    grid-template-columns: 74% 26%;
-    grid-template-rows: 135px;
-    align-items: center;
-    justify-items: start;
-    gap: 0;
-    padding-left: 50px; 
-    padding-right: 50px; 
-}
-
 .description-title {
     font-size: 22px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 400;
     word-spacing: 19px;
     position: relative;
@@ -141,10 +136,22 @@ main {
     color: white;
     z-index: 6;
     font-size: 22px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     background: transparent;
     border: 1px solid white;
     padding: 13px 31px 11px 33px;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 74% 26%;
+    grid-template-rows: 135px;
+    align-items: center;
+    justify-items: start;
+    gap: 0;
+    padding-left: 50px; 
+    padding-right: 50px; 
 }
 
 .lots {
@@ -154,6 +161,7 @@ main {
 .lots-title {
     font-weight: 700;
     font-size: 40px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     display: inline-block;
     padding: 5px 40px 24px 40px;
 }
@@ -207,6 +215,7 @@ main {
     left: 40px;
     z-index: 7;
     font-size: 22px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 700;
     text-decoration: underline;
     line-height: 120%;
@@ -220,6 +229,7 @@ main {
     z-index: 7;
     font-weight: 400;
     font-size: 20px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     line-height: 120%;
     align-self: end;
 }
@@ -235,6 +245,7 @@ main {
     padding-bottom: 1px;
     text-transform: lowercase;
     font-size: 20px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 .about {
@@ -271,13 +282,13 @@ main {
     width: 291px;
     height: 47px;
     padding-top: 100px;
-    /*padding-right: 402px;*/
     padding-bottom: 146px;
     font-size: 40px;
 }
 
 .about-column-content {
     font-size: 20px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     margin-bottom: 1.5em;
     width: 687px;
 }
@@ -296,6 +307,7 @@ main {
 
 .footer-contacts {
     font-size: 18px;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-style: normal;
     width: 264px;
     height: 98px;
