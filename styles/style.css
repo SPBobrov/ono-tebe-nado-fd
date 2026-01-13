@@ -2,7 +2,7 @@ ul,
 ol,
 li {
     padding: 0;
-    list-style: none;
+    list-style-type: circle;
 }
 
 button {
@@ -39,11 +39,13 @@ address {
     text-decoration: none;
     border-bottom: 1px solid currentColor;
     padding-bottom: 1px;
-    list-style: circle;
 }
 
 .header-menu-no-attach {
     border-bottom: none;
+}
+
+.no-marker {
     list-style: none;
 }
 
